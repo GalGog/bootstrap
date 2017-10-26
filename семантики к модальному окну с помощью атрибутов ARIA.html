@@ -17,9 +17,11 @@
     Открыть модальное окно
 </button>
 
-<!-- Модальное окно -->
+<!-- Модальное окно/ анимацию при открытии модального окна.fade -->
+<!-- Изменение размера модального окна .modal-sm/.modal-lg-->
+
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
@@ -29,6 +31,13 @@
             </div>
             <div class="modal-body">
                 Содержимое модального окна...
+                <!-- Контейнер, в котором можно создавать классы системы сеток -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">......Контейнер, в котором можно создавать классы системы сеток</div>
+                        <div class="col-md-6">.......Контейнер, в котором можно создавать классы системы сеток</div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
