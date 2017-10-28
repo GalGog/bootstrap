@@ -1,10 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="style1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.js"></script>
 </head>
 <body>
+<div class="container">
+ <div class="alert alert-warning">
+    <strong>Предупреждение!</strong> Обнаружены проблемы с сетевым соединением.
+ </div>
 
+    <div class="alert alert-success">
+        Сообщение отправлено успешно.
+    </div>
+
+    <!-- Сообщение об ошибке -->
+    <div class="alert alert-danger">
+        <!-- Кнопка для закрытия сообщения, созданная с помощью элемента a -->
+        <a href="#" class="close" data-dismiss="alert">×</a>
+        Неизвестная ошибка при передаче данных.
+    </div>
+
+    <!-- Сообщение об успешном выполнения действия -->
+    <div class="alert alert-success">
+        <!-- Кнопка для закрытия сообщения, созданная с помощью элемента button -->
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        Сообщение отправлено успешно.
+    </div>
+
+    <!-- Предупреждающее сообщение -->
+    <div class="alert alert-warning">
+        <!-- Кнопка для закрытия сообщения, созданная с помощью элемента span -->
+        <span class="close" data-dismiss="alert">×</span>
+        Введённые пароли не совпадают!
+    </div>
+</div>
 </body>
 </html>
