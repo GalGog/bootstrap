@@ -22,10 +22,69 @@
 <br>
 <br>
 <br>
-<a href="#" data-toggle="tooltip" data-placement="bottom" data-trigger="click" data-animation="true" title="Текст всплывающей подсказки">
+<a href="#" data-toggle="tooltip" data-delay="10"  data-placement="bottom"  data-animation="true" title="Текст всплывающей подсказки">
     Ссылка с tooltip
 </a>
 
+<br>
+<br>
+<!-- Всплывающая подсказка, которая отображается сверху от элемента элемента <a> -->
+<a href="#" data-toggle="tooltip" title="Подсказка">
+    Ссылка с tooltip
+</a>
+<!-- Всплывающая подсказка, которая отображается слева от элемента <a> -->
+<a href="#" data-toggle="tooltip" data-placement="left" title="Подсказка">
+    Ссылка  с tooltip
+</a>
+<!-- Всплывающая подсказка, которая располагается снизу от кнопки -->
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Подсказка">
+    Кнопка с подсказкой
+</button>
+<!-- Всплывающая подсказка, которая располагается справа от кнопки -->
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Подсказка">
+    Кнопка с подсказкой
+</button>
+
+<!-- Скрипт для инициализации элементов на странице, имеющих атрибут data-toggle="tooltip" -->
+<script>
+    $(function () {
+        $("[data-toggle='tooltip']").tooltip();
+    });
+</script>
+<br>
+<br>
+<br>
+<br>
+<ul class="list-inline">
+    <!-- Всплывающая подсказка с расположением по умолчанию -->
+    <li>
+        <a href="#" data-toggle="tooltip" title="Подсказка">Ссылка с tooltip</a>
+    </li>
+    <!-- Всплывающая подсказка, которая расположена слева от ссылки -->
+    <li>
+        <a href="#" data-toggle="tooltip" data-placement="left" title="Подсказка слева">Подсказка слева</a>
+    </li>
+    <!-- Всплывающая подсказка, содержащая длинный текст -->
+    <li>
+        <a href="#" data-toggle="tooltip" title="Подсказка с очень длинным текстом для демонстрации максимальной ширины tooltip.">Очень длинная подсказка</a>
+    </li>
+    <!-- Всплывающая подсказка для кнопки -->
+    <li>
+        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Подсказка для кнопки">Кнопка
+        </button>
+    </li>
+    <!-- Ещё одна всплывающая подсказка для кнопки -->
+    <li>
+        <button type="button" class="btn btn-warning" data-toggle="tooltip" data-placement="right" title="Подсказка справа от кнопки">Другая кнопка
+        </button>
+    </li>
+</ul>
+
+<!-- Скрипт для инициализации элементов на странице, имеющих атрибут data-toggle="tooltip" -->
+<script type="text/javascript">
+    $(function () {
+        $("[data-toggle='tooltip']").tooltip();
+    });
 <!-- Скрипт для инициализации элементов на странице, имеющих атрибут data-toggle="tooltip" -->
 
 </body>
