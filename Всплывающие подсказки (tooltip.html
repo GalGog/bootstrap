@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link type="text/css" rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="style1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="static/bootstrap/js/bootstrap.js"></script>
+    <script>
+        // после загрузки страницы
+        $(function () {
+            // инициализировать все элементы на страницы, имеющих атрибут data-toggle="tooltip", как компоненты tooltip
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<a href="#" data-toggle="tooltip" data-placement="bottom" data-trigger="click" data-animation="true" title="Текст всплывающей подсказки">
+    Ссылка с tooltip
+</a>
+
+<!-- Скрипт для инициализации элементов на странице, имеющих атрибут data-toggle="tooltip" -->
+
+</body>
+</html>
