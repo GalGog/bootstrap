@@ -1,0 +1,17 @@
+.nav .navbar-nav .navbar-right{
+    background: orange;
+}
+
+div .navbar-header a.navbar-brand{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: "Al Bayan";
+
+}
+div .navbar-header a.navbar-brand span.logo{
+    font-size: 10px;
+    font-weight: normal;
+    font-family: normal;
+    color: #666666;
+}
