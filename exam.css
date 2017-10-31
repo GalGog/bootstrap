@@ -15,3 +15,17 @@ div .navbar-header a.navbar-brand span.logo{
     font-family: normal;
     color: #666666;
 }
+#discribe {
+    margin-right: 10%;
+
+}
+#discribe h1{
+    color: #515151;
+}
+#discribe p {
+color:#707070;
+}
+button .btn .btn-warning .btn-lg, span.quality {
+    font-size: 12px;
+    color: #707070;
+}
