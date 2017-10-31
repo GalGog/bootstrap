@@ -23,9 +23,25 @@ div .navbar-header a.navbar-brand span.logo{
     color: #515151;
 }
 #discribe p {
-color:#707070;
+color:#707070
 }
 button .btn .btn-warning .btn-lg, span.quality {
     font-size: 12px;
     color: #707070;
+}
+.thumbnail{
+    background-image: url("Layer 9.png" );
+    background-repeat: no-repeat;
+background-position-y: 90px;
+border: none;
+}
+
+.caption p{
+    font-family: Arial Regular;
+    font-size: 14px;
+    text-align: justify;
+}
+.caption h3{
+    font-family: Myriad Pro Regular;
+    font-size: 11px;
 }
