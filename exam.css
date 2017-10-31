@@ -45,3 +45,6 @@ border: none;
     font-family: Myriad Pro Regular;
     font-size: 11px;
 }
+.col-md-4 ol li {
+    list-style-type: none;
+}
