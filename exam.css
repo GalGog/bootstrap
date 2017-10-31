@@ -48,3 +48,9 @@ border: none;
 .col-md-4 ol li {
     list-style-type: none;
 }
+.col-lg-4 ul li h4{
+   color: orange;
+}
+.col-lg-4 ul li{
+    list-style-type: none;
+}
